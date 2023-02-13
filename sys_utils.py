@@ -48,10 +48,10 @@ def run_command(command):
 
 def ge_pkg_versions():
     dep_versions = {}
-    dep_versions['display'] = 'NVIDIA GeForce GTX 1080 Ti'
+    # dep_versions['display'] = 'NVIDIA GeForce GTX 1080 Ti'
     # dep_versions['display'] = run_command('cat /proc/driver/nvidia/version')
 
-    dep_versions['cuda'] = 'NA'
+    # dep_versions['cuda'] = 'NA'
     cuda_home = 'C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1'
     # cuda_home = '/usr/local/cuda/'
     if 'CUDA_HOME' in os.environ:
