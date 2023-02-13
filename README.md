@@ -1,7 +1,8 @@
-# Video Summarization with Attention
-A PyTorch implementation of our paper [Video Summarization with Attention](https://arxiv.org/abs/1812.01969) by 
-Jiri Fajtl, Hajar Sadeghi Sokeh, Vasileios Argyriou, Dorothy Monekosso and Paolo Remagnino.
-This paper was presented at [ACCV 2018](http://accv2018.net/program/) [AIU2018 workshop](http://www.sys.info.hiroshima-cu.ac.jp/aiu2018/).
+# Recurrent Unit Augmented Memory Network for Video Summarization
+A PyTorch implementation of our paper "Recurrent Unit Augmented Memory Network for Video Summarization".
+
+## Architecture Overview
+![image](https://github.com/suemingloria/RUAMN/blob/main/imgs/framework.png)
 
 ## Installation
 The development and evaluation was done on the following configuration:
